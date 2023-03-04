@@ -1,0 +1,45 @@
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding: 20px; 
+  color: white;
+  padding: 15px ;
+  margin: 8px 0;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 20%;
+
+<h1 class="heading"><span>features</span> </h1> 
+<div id="body">
+<div class="wrapper"> 
+<div class="card"> 
+<img src="h4.jpg" alt=""> 
+<div class="info">
+<h5>$25,000/mo</h3> <a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-envelope"></a> <a href="#" class="fas fa-phone"></a> 
+<h5>modern apartments</h5> <p>bolebulbula, addisabeba, ethiopia- 400/104</p>
+<h5><i class="fas fa-expand"></i> 3500 sqft </h5>
+<h5> <i class="fas fa-bed"></i> 3 beds </h5>
+<h5> <i class="fas fa-bath"></i> 2 baths </h5> 
+<a href="#" class="btn">view deatils</a> </div> </div>
+
+<div class="card"> 
+<img src="h4.jpg" alt=""> 
+<div class="info">
+<h5>$25,000/mo</h3> <a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-envelope"></a> <a href="#" class="fas fa-phone"></a> 
+<h5>modern apartments</h5> <p>bolebulbula, addisabeba, ethiopia- 400/104</p>
+<h5><i class="fas fa-expand"></i> 3500 sqft </h5>
+<h5> <i class="fas fa-bed"></i> 3 beds </h5>
+<h5> <i class="fas fa-bath"></i> 2 baths </h5> 
+<a href="#" class="btn">view deatils</a> </div> </div>
+
+<div class="card"> 
+<img src="h4.jpg" alt=""> 
+<div class="info">
+<h5>$25,000/mo</h3> <a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-envelope"></a> <a href="#" class="fas fa-phone"></a> 
+<h5>modern apartments</h5> <p>bolebulbula, addisabeba, ethiopia- 400/104</p>
+<h5><i class="fas fa-expand"></i> 3500 sqft </h5>
+<h5> <i class="fas fa-bed"></i> 3 beds </h5>
+<h5> <i class="fas fa-bath"></i> 2 baths </h5> 
+<a href="#" class="btn">view deatils</a> </div> </div> </div></div>

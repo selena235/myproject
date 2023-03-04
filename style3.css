@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --red:#ff5a3c;
+    --light-red:#f9edeb;
+}
+
+*{
+box-sizing:border-box;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+#cook1{
+    float:left;
+    margin:10px;
+    
+    top:0;
+    }
+    #cook1 a{
+    
+      text-decoration: wavy;
+      border-radius: 25px;
+        background:#fffafa;
+      color:black;
+        padding: 20px;
+       width: 20%;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    button {
+        border-radius: 25px;
+        background:#fffafa;
+      color:black;
+        padding: 20px;
+       width: 20%;
+        border: 1px solid white;
+        cursor: pointer;
+      
+      
+      
+      }
+      
+      button:hover {
+        opacity: 0.9;
+      
+      }
+section{
+    padding:2rem 9%;
+}
+.heading{
+    text-align: center;
+    color:#333;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+.heading span{
+    color:var(--red);
+    background:var(--light-red);
+    border-radius: .5rem;
+    padding:.2rem 1.5rem;
+}
+
+
+body{
+
+    margin: 0;
+    font-family: sans-serif;
+    background:#f7f7f7;
+    
+    }
+
+    .Contactform
+    {    
+        width:60%;
+        max-width: 400px;
+        font-size:15px;
+        margin:150px auto;
+        padding:20px;
+        border-radius: 10px;
+        border: solid 2px #3091af;
+    }
+
+    .Contactform input,label,textarea,button
+    {
+        width:90%;
+        padding:10px;
+        margin:10px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+    .sendbutton
+    {   width:35%;
+        background: #33a0e9;
+        font-size:15px;
+        color: #fff;
+        border-width: 0px;
+     
+    }
+    #cook1 {
+    
+        text-decoration: wavy;
+        border-radius: 25px;
+          background:#fffafa;
+        color:black;
+          padding: 20px;
+         width: 20%;
+          border: 1px solid white;
+          cursor: pointer;
+      }

@@ -1,0 +1,97 @@
+﻿<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css"href="login.css">
+</head>
+<body>
+<img src="homepro.png">
+<div id="nav">
+<ul><li><a href="#home">home</a></li>
+<li><a href="#re"target="_self">about</a></li>
+<li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
+<li><button onclick="document.getElementById('center2').style.display='block'" style="width:auto;">signup</button></li>
+
+</div>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="download.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id1').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id1');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<div id="center2" class="idea">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+   <div class="imgcontainer">
+      <span onclick="document.getElementById('center2').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="download.png" alt="Avatar" class="avatar">
+    </div>
+<div class="container">
+      
+      <label for="fname"><b>firstname</b></label>
+<input type="text"  placeholder="Enter firstname" name="fname" required>
+      <label for="lname"><b>lastname</b></label>
+<input type="text"  placeholder="Enter lastname" name="lname" required>
+      <label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="EMAIL"><b>EMAIL</b></label>
+<input type="email" name="EMAIL" required> 
+      <label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" required>
+      <label><select>
+      <option>customer</option>
+      <option>propetyselling</option>
+      </select>
+      </label>  
+      <button type="submit">signup</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+</div>
+<script>
+// Get the modal
+var idea = document.getElementById('center2');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == idea) {
+       idea.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
+</body>
+</html>
